@@ -1,0 +1,318 @@
+{
+    "i-0bf8df0555943fc9a": {
+        "ssh_exposed": [
+            {
+                "arn": "i-07cd0b6d260982b7b",
+                "tag": [
+                    {
+                        "Key": "aws:cloudformation:stack-id",
+                        "Value": "arn:aws:cloudformation:ap-northeast-2:211125428358:stack/prowlerstack/79603c70-1b6d-11ef-8af1-0a1959b8f481"
+                    },
+                    {
+                        "Key": "Name",
+                        "Value": "WAFLab-WebServerInstance"
+                    },
+                    {
+                        "Key": "aws:cloudformation:stack-name",
+                        "Value": "prowlerstack"
+                    },
+                    {
+                        "Key": "aws:cloudformation:logical-id",
+                        "Value": "WebServerInstance"
+                    }
+                ],
+                "region": "ap-northeast-2a",
+                "status": "FAIL",
+                "status_extended": "Instance i-07cd0b6d260982b7b has SSH exposed to 0.0.0.0/0 but with no public IP address.",
+                "severity": "medium"
+            },
+            {
+                "arn": "i-0bf8df0555943fc9a",
+                "tag": [
+                    {
+                        "Key": "Name",
+                        "Value": "Web server for IMD"
+                    }
+                ],
+                "region": "ap-northeast-2c",
+                "status": "PASS",
+                "status_extended": "Instance i-0bf8df0555943fc9a does not have SSH port 22 open to the Internet."
+            }
+        ],
+        "telnet_exposed": [
+            {
+                "arn": "i-07cd0b6d260982b7b",
+                "tag": [
+                    {
+                        "Key": "aws:cloudformation:stack-id",
+                        "Value": "arn:aws:cloudformation:ap-northeast-2:211125428358:stack/prowlerstack/79603c70-1b6d-11ef-8af1-0a1959b8f481"
+                    },
+                    {
+                        "Key": "Name",
+                        "Value": "WAFLab-WebServerInstance"
+                    },
+                    {
+                        "Key": "aws:cloudformation:stack-name",
+                        "Value": "prowlerstack"
+                    },
+                    {
+                        "Key": "aws:cloudformation:logical-id",
+                        "Value": "WebServerInstance"
+                    }
+                ],
+                "region": "ap-northeast-2a",
+                "status": "PASS",
+                "status_extended": "Instance i-07cd0b6d260982b7b does not have Telnet port 23 open to the Internet."
+            },
+            {
+                "arn": "i-0bf8df0555943fc9a",
+                "tag": [
+                    {
+                        "Key": "Name",
+                        "Value": "Web server for IMD"
+                    }
+                ],
+                "region": "ap-northeast-2c",
+                "status": "PASS",
+                "status_extended": "Instance i-0bf8df0555943fc9a does not have Telnet port 23 open to the Internet."
+            }
+        ],
+        "profile_attached": [
+            {
+                "arn": "i-07cd0b6d260982b7b",
+                "tag": [
+                    {
+                        "Key": "aws:cloudformation:stack-id",
+                        "Value": "arn:aws:cloudformation:ap-northeast-2:211125428358:stack/prowlerstack/79603c70-1b6d-11ef-8af1-0a1959b8f481"
+                    },
+                    {
+                        "Key": "Name",
+                        "Value": "WAFLab-WebServerInstance"
+                    },
+                    {
+                        "Key": "aws:cloudformation:stack-name",
+                        "Value": "prowlerstack"
+                    },
+                    {
+                        "Key": "aws:cloudformation:logical-id",
+                        "Value": "WebServerInstance"
+                    }
+                ],
+                "region": "ap-northeast-2a",
+                "status": "FAIL",
+                "status_extended": "EC2 Instance i-07cd0b6d260982b7b not associated with an Instance Profile Role."
+            },
+            {
+                "arn": "i-0bf8df0555943fc9a",
+                "tag": [
+                    {
+                        "Key": "Name",
+                        "Value": "Web server for IMD"
+                    }
+                ],
+                "region": "ap-northeast-2c",
+                "status": "PASS",
+                "status_extended": "EC2 Instance i-0bf8df0555943fc9a associated with Instance Profile Role arn:aws:iam::211125428358:instance-profile/SSMInstanceProfile."
+            }
+        ],
+        "public_ip": [
+            {
+                "arn": "i-07cd0b6d260982b7b",
+                "tag": [
+                    {
+                        "Key": "aws:cloudformation:stack-id",
+                        "Value": "arn:aws:cloudformation:ap-northeast-2:211125428358:stack/prowlerstack/79603c70-1b6d-11ef-8af1-0a1959b8f481"
+                    },
+                    {
+                        "Key": "Name",
+                        "Value": "WAFLab-WebServerInstance"
+                    },
+                    {
+                        "Key": "aws:cloudformation:stack-name",
+                        "Value": "prowlerstack"
+                    },
+                    {
+                        "Key": "aws:cloudformation:logical-id",
+                        "Value": "WebServerInstance"
+                    }
+                ],
+                "region": "ap-northeast-2a",
+                "policy_name": "N/A",
+                "status": "PASS",
+                "status_extended": "EC2 Instance i-07cd0b6d260982b7b does not have a Public IP."
+            },
+            {
+                "arn": "i-0bf8df0555943fc9a",
+                "tag": [
+                    {
+                        "Key": "Name",
+                        "Value": "Web server for IMD"
+                    }
+                ],
+                "region": "ap-northeast-2c",
+                "policy_name": "N/A",
+                "status": "PASS",
+                "status_extended": "EC2 Instance i-0bf8df0555943fc9a does not have a Public IP."
+            }
+        ],
+        "secrets_user_data": [
+            {
+                "arn": "i-07cd0b6d260982b7b",
+                "tag": [
+                    {
+                        "Key": "aws:cloudformation:stack-id",
+                        "Value": "arn:aws:cloudformation:ap-northeast-2:211125428358:stack/prowlerstack/79603c70-1b6d-11ef-8af1-0a1959b8f481"
+                    },
+                    {
+                        "Key": "Name",
+                        "Value": "WAFLab-WebServerInstance"
+                    },
+                    {
+                        "Key": "aws:cloudformation:stack-name",
+                        "Value": "prowlerstack"
+                    },
+                    {
+                        "Key": "aws:cloudformation:logical-id",
+                        "Value": "WebServerInstance"
+                    }
+                ],
+                "region": "ap-northeast-2a",
+                "status": "PASS",
+                "status_extended": "No secrets found in EC2 instance i-07cd0b6d260982b7b since User Data is empty."
+            },
+            {
+                "arn": "i-0bf8df0555943fc9a",
+                "tag": [
+                    {
+                        "Key": "Name",
+                        "Value": "Web server for IMD"
+                    }
+                ],
+                "region": "ap-northeast-2c",
+                "status": "PASS",
+                "status_extended": "No secrets found in EC2 instance i-0bf8df0555943fc9a User Data."
+            }
+        ],
+        "launch_template_secrets": [
+            {
+                "arn": "N/A",
+                "tag": "N/A",
+                "region": "N/A",
+                "status": "ERROR",
+                "status_extended": "No launch templates found."
+            }
+        ],
+        "n_acl_ingress_any_port": [
+            {
+                "arn": "acl-0baeb7057b6a86e7c",
+                "region": "ap-northeast-2",
+                "status": "FAIL",
+                "status_extended": "Network ACL acl-0baeb7057b6a86e7c has every port open to the Internet."
+            },
+            {
+                "arn": "acl-04118496b1ba3b79d",
+                "region": "ap-northeast-2",
+                "status": "FAIL",
+                "status_extended": "Network ACL acl-04118496b1ba3b79d has every port open to the Internet."
+            }
+        ],
+        "n_acl_ingress_tcp_22": [
+            {
+                "arn": "acl-0baeb7057b6a86e7c",
+                "region": "ap-northeast-2",
+                "status": "FAIL",
+                "status_extended": "Network ACL acl-0baeb7057b6a86e7c has SSH port 22 open to the Internet."
+            },
+            {
+                "arn": "acl-04118496b1ba3b79d",
+                "region": "ap-northeast-2",
+                "status": "FAIL",
+                "status_extended": "Network ACL acl-04118496b1ba3b79d has SSH port 22 open to the Internet."
+            }
+        ],
+        "sg_all_ports_open": [
+            {
+                "arn": "acl-0baeb7057b6a86e7c",
+                "region": "ap-northeast-2",
+                "status": "FAIL",
+                "status_extended": "Network ACL acl-0baeb7057b6a86e7c has Microsoft RDP port 3389 open to the Internet."
+            },
+            {
+                "arn": "acl-04118496b1ba3b79d",
+                "region": "ap-northeast-2",
+                "status": "FAIL",
+                "status_extended": "Network ACL acl-04118496b1ba3b79d has Microsoft RDP port 3389 open to the Internet."
+            }
+        ],
+        "sg_ingress_any_port": [
+            {
+                "arn": "sg-0c91fed395e006a7e",
+                "region": "vpc-0f813322de3cb8160",
+                "status": "PASS",
+                "status_extended": "Security group prowlerstack-InstanceSecurityGroup-yZOPsYp1bD2u (sg-0c91fed395e006a7e) does not have any port open to the Internet."
+            },
+            {
+                "arn": "sg-02ff59c7fa0ed2c37",
+                "region": "vpc-0a222e7e2c6e093aa",
+                "status": "PASS",
+                "status_extended": "Security group Immersion Day - Web Server (sg-02ff59c7fa0ed2c37) does not have any port open to the Internet."
+            }
+        ],
+        "sg_ingress_mongodb_ports": [
+            {
+                "arn": "sg-0c91fed395e006a7e",
+                "region": "vpc-0f813322de3cb8160",
+                "status": "PASS",
+                "status_extended": "Security group prowlerstack-InstanceSecurityGroup-yZOPsYp1bD2u (sg-0c91fed395e006a7e) does not have MongoDB ports 27017 and 27018 open to the Internet."
+            },
+            {
+                "arn": "sg-02ff59c7fa0ed2c37",
+                "region": "vpc-0a222e7e2c6e093aa",
+                "status": "PASS",
+                "status_extended": "Security group Immersion Day - Web Server (sg-02ff59c7fa0ed2c37) does not have MongoDB ports 27017 and 27018 open to the Internet."
+            }
+        ],
+        "sg_ingress_ftp_ports": [
+            {
+                "arn": "sg-0c91fed395e006a7e",
+                "region": "vpc-0f813322de3cb8160",
+                "status": "PASS",
+                "status_extended": "Security group prowlerstack-InstanceSecurityGroup-yZOPsYp1bD2u (sg-0c91fed395e006a7e) does not have FTP ports 20 and 21 open to the Internet."
+            },
+            {
+                "arn": "sg-02ff59c7fa0ed2c37",
+                "region": "vpc-0a222e7e2c6e093aa",
+                "status": "PASS",
+                "status_extended": "Security group Immersion Day - Web Server (sg-02ff59c7fa0ed2c37) does not have FTP ports 20 and 21 open to the Internet."
+            }
+        ],
+        "sg_ingress_ssh_22": [
+            {
+                "arn": "sg-0c91fed395e006a7e",
+                "region": "vpc-0f813322de3cb8160",
+                "status": "FAIL",
+                "status_extended": "Security group prowlerstack-InstanceSecurityGroup-yZOPsYp1bD2u (sg-0c91fed395e006a7e) has SSH port 22 open to the Internet."
+            },
+            {
+                "arn": "sg-02ff59c7fa0ed2c37",
+                "region": "vpc-0a222e7e2c6e093aa",
+                "status": "PASS",
+                "status_extended": "Security group Immersion Day - Web Server (sg-02ff59c7fa0ed2c37) does not have SSH port 22 open to the Internet."
+            }
+        ],
+        "sg_ingress_tcp_3389": [
+            {
+                "arn": "sg-0c91fed395e006a7e",
+                "region": "vpc-0f813322de3cb8160",
+                "status": "PASS",
+                "status_extended": "Security group prowlerstack-InstanceSecurityGroup-yZOPsYp1bD2u (sg-0c91fed395e006a7e) does not have Microsoft RDP port 3389 open to the Internet."
+            },
+            {
+                "arn": "sg-02ff59c7fa0ed2c37",
+                "region": "vpc-0a222e7e2c6e093aa",
+                "status": "PASS",
+                "status_extended": "Security group Immersion Day - Web Server (sg-02ff59c7fa0ed2c37) does not have Microsoft RDP port 3389 open to the Internet."
+            }
+        ]
+    }
+}
