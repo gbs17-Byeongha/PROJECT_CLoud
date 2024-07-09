@@ -19,7 +19,7 @@ def check_ec2_instance_port_cifs_exposed_to_internet(ec2_client):
             instance_arn = f"arn:aws:ec2:{instance['Placement']['AvailabilityZone'][:-1]}:{owner_id}:instance/{instance_id}"
             
             status = "PASS"
-            status_extended = f"Instance {instance_id} does not have CIFS ports open to the Internet."
+            status_extended = f"인스턴스 {instance_id}에 인터넷에 열려 있는 CIFS 포트가 없습니다."
 
             # 인스턴스에 연결된 보안 그룹 확인
             for sg in instance['SecurityGroups']:
@@ -37,7 +37,7 @@ def check_ec2_instance_port_cifs_exposed_to_internet(ec2_client):
                                 # 인바운드 규칙이 0.0.0.0/0 (모든 IP) 인지 확인
                                 if ip_range.get('CidrIp') == '0.0.0.0/0':
                                     status = "FAIL"
-                                    status_extended = f"Instance {instance_id} has CIFS ports open to the Internet."
+                                    status_extended = f"인스턴스 {instance_id}에 인터넷에 CIFS 포트가 열려 있습니다."
                                     break
                     
                     if status == "FAIL":
@@ -73,8 +73,8 @@ def check_ec2_instance_port_cifs_exposed_to_internet(ec2_client):
 
 def save_findings_to_json(findings, filename):
     # 결과를 JSON 파일로 저장
-    with open(filename, 'w') as file:
-        json.dump(findings, file, indent=4)
+    with open(filename, 'w',encoding='UTF-8-sig') as file:
+        json.dump(findings, file, indent=4, ensure_ascii=False)
 
 # 결과 실행 및 출력
 if __name__ == '__main__':

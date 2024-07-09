@@ -38,10 +38,10 @@ def check_ec2_instance_port_mysql_exposed_to_internet(ec2_client):
 
             if is_mysql_open:
                 status = 'FAIL'
-                status_extended = f"Instance {instance_id} has MySQL port 3306 open to the Internet."
+                status_extended = f"인스턴스 {instance_id}에 MySQL 포트 3306이 인터넷에 열려 있습니다."
             else:
                 status = 'PASS'
-                status_extended = f"Instance {instance_id} does not have MySQL port 3306 open to the Internet."
+                status_extended = f"인스턴스 {instance_id}에 인터넷에 열려 있는 MySQL 포트 3306이 없습니다."
 
             finding = {
                 'arn': instance_arn,
@@ -56,8 +56,9 @@ def check_ec2_instance_port_mysql_exposed_to_internet(ec2_client):
     return findings
 
 def save_findings_to_json(findings, filename):
-    with open(filename, 'w') as file:
-        json.dump(findings, file, indent=4)
+    # 결과를 JSON 파일로 저장
+    with open(filename, 'w',encoding='UTF-8-sig') as file:
+        json.dump(findings, file, indent=4, ensure_ascii=False)
 
 if __name__ == '__main__':
     ec2_client = boto3.client('ec2')

@@ -55,17 +55,17 @@ def check_ec2_instance_port_ldap_exposed_to_internet(ec2_client):
                 status = "FAIL"
                 if has_public_ip and is_public_subnet:
                     severity = "CRITICAL"
-                    status_extended = f"Instance {instance_id} has LDAP ports open to the Internet, has a public IP, and is in a public subnet."
+                    status_extended = f"인스턴스 {instance_id}에 인터넷에 LDAP 포트가 열려 있고 공용 IP가 있으며 공용 서브넷에 있습니다."
                 elif has_public_ip:
                     severity = "HIGH"
-                    status_extended = f"Instance {instance_id} has LDAP ports open to the Internet and has a public IP, but is in a private subnet."
+                    status_extended = f"인스턴스 {instance_id}에 인터넷에 LDAP 포트가 열려 있고 공용 IP가 있지만 개인 서브넷에 있습니다."
                 else:
                     severity = "MEDIUM"
-                    status_extended = f"Instance {instance_id} has LDAP ports open to the Internet, but has no public IP."
+                    status_extended = f"인스턴스 {instance_id}에 인터넷에 LDAP 포트가 열려 있지만 공용 IP가 없습니다."
             else:
                 status = "PASS"
                 severity = "INFO"
-                status_extended = f"Instance {instance_id} does not have LDAP ports open to the Internet."
+                status_extended = f"인스턴스 {instance_id}에 인터넷에 열려 있는 LDAP 포트가 없습니다."
 
             # 점검 결과를 딕셔너리 형태로 저장
             finding = {
@@ -82,9 +82,9 @@ def check_ec2_instance_port_ldap_exposed_to_internet(ec2_client):
     return findings
 
 def save_findings_to_json(findings, filename):
-    # 점검 결과를 JSON 파일로 저장
-    with open(filename, 'w') as file:
-        json.dump(findings, file, indent=4)
+    # 결과를 JSON 파일로 저장
+    with open(filename, 'w',encoding='UTF-8-sig') as file:
+        json.dump(findings, file, indent=4, ensure_ascii=False)
 
 if __name__ == '__main__':
     # AWS EC2 클라이언트 생성

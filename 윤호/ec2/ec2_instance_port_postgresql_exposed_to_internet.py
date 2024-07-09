@@ -44,19 +44,19 @@ def check_ec2_instance_port_postgresql_exposed_to_internet(ec2_client):
                 if public_ip and is_public_subnet:
                     status = "FAIL"
                     severity = "CRITICAL"
-                    status_extended = f"Instance {instance_id} has PostgreSQL port 5432 open to the Internet and is in a public subnet with a public IP."
+                    status_extended = f"인스턴스 {instance_id}에 인터넷에 PostgreSQL 포트 5432가 열려 있고 공용 IP가 있는 공용 서브넷에 있습니다."
                 elif public_ip:
                     status = "FAIL"
                     severity = "HIGH"
-                    status_extended = f"Instance {instance_id} has PostgreSQL port 5432 open to the Internet and has a public IP but is in a private subnet."
+                    status_extended = f"인스턴스 {instance_id}에 인터넷에 PostgreSQL 포트 5432가 열려 있고 공용 IP가 있지만 개인 서브넷에 있습니다."
                 else:
                     status = "FAIL"
                     severity = "MEDIUM"
-                    status_extended = f"Instance {instance_id} has PostgreSQL port 5432 open to the Internet but has no public IP."
+                    status_extended = f"인스턴스 {instance_id}에 인터넷에 PostgreSQL 포트 5432가 열려 있지만 공용 IP가 없습니다."
             else:
                 status = "PASS"
                 severity = "INFO"
-                status_extended = f"Instance {instance_id} does not have PostgreSQL port 5432 open to the Internet."
+                status_extended = f"인스턴스 {instance_id}에 인터넷에 열려 있는 PostgreSQL 포트 5432가 없습니다."
 
             finding = {
                 'arn': instance_arn,
@@ -73,8 +73,8 @@ def check_ec2_instance_port_postgresql_exposed_to_internet(ec2_client):
 
 def save_findings_to_json(findings, filename):
     # 결과를 JSON 파일로 저장
-    with open(filename, 'w') as file:
-        json.dump(findings, file, indent=4)
+    with open(filename, 'w',encoding='UTF-8-sig') as file:
+        json.dump(findings, file, indent=4, ensure_ascii=False)
 
 if __name__ == '__main__':
     ec2_client = boto3.client('ec2')

@@ -102,8 +102,8 @@ def main():
         results.append(finding)
     
     # Save the results to a JSON file
-    with open('results.json', 'w') as json_file:
-        json.dump(results, json_file, indent=4)
+    with open('results.json', 'w',encoding='UTF-8-sig') as json_file:
+        json.dump(results, json_file, indent=4, ensure_ascii=False)
 
 if __name__ == "__main__":
     main()

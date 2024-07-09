@@ -41,13 +41,13 @@ def check_ec2_instance_port_rdp_exposed_to_internet(ec2_client):
             
             if is_rdp_open and public_ip:
                 status = "FAIL"
-                status_extended = f"Instance {instance_id} has RDP port 3389 open to the Internet and has a public IP."
+                status_extended = f"인스턴스 {instance_id}에 RDP 포트 3389가 인터넷에 열려 있고 공용 IP가 있습니다."
             elif is_rdp_open:
                 status = "FAIL"
-                status_extended = f"Instance {instance_id} has RDP port 3389 open to the Internet but does not have a public IP."
+                status_extended = f"인스턴스 {instance_id}에 RDP 포트 3389가 인터넷에 열려 있지만 공용 IP가 없습니다."
             else:
                 status = "PASS"
-                status_extended = f"Instance {instance_id} does not have RDP port 3389 open to the Internet."
+                status_extended = f"인스턴스 {instance_id}에 인터넷에 열려 있는 RDP 포트 3389가 없습니다."
 
             finding = {
                 'arn': instance_arn,
@@ -63,8 +63,8 @@ def check_ec2_instance_port_rdp_exposed_to_internet(ec2_client):
 
 def save_findings_to_json(findings, filename):
     # 결과를 JSON 파일로 저장
-    with open(filename, 'w') as file:
-        json.dump(findings, file, indent=4)
+    with open(filename, 'w',encoding='UTF-8-sig') as file:
+        json.dump(findings, file, indent=4, ensure_ascii=False)
 
 if __name__ == '__main__':
     ec2_client = boto3.client('ec2')

@@ -60,7 +60,7 @@ def check_ec2_instance_port_elasticsearch_kibana_exposed_to_internet(ec2_client)
                 else:
                     severity = "MEDIUM"
 
-            status_extended = f"Instance {instance_id} {'has' if is_open_port else 'does not have'} Elasticsearch/Kibana ports open to the Internet."
+            status_extended = f"인스턴스 {instance_id}에 인터넷에 열려 있는 Elasticsearch/Kibana 포트가{'있습니다.' if is_open_port else '없습니다.'}"
 
             # 결과 저장
             finding = {
@@ -78,8 +78,8 @@ def check_ec2_instance_port_elasticsearch_kibana_exposed_to_internet(ec2_client)
 
 def save_findings_to_json(findings, filename):
     # 결과를 JSON 파일로 저장
-    with open(filename, 'w') as file:
-        json.dump(findings, file, indent=4)
+    with open(filename, 'w',encoding='UTF-8-sig') as file:
+        json.dump(findings, file, indent=4, ensure_ascii=False)
 
 # 결과 실행 및 출력
 if __name__ == '__main__':

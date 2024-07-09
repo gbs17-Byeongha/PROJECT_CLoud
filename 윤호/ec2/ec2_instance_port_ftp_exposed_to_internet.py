@@ -15,7 +15,7 @@ def check_ec2_instance_port_ftp_exposed_to_internet(ec2_client):
         for instance in reservation['Instances']:
             instance_id = instance['InstanceId']
             status = "PASS"  # 기본 상태는 PASS로 설정
-            status_extended = f"Instance {instance_id} does not have FTP ports open to the Internet."
+            status_extended = f"인스턴스 {instance_id}에 인터넷에 열려 있는 FTP 포트가 없습니다."
             severity = "low"  # 기본 심각도는 낮음
 
             # 인스턴스의 보안 그룹 확인
@@ -34,8 +34,8 @@ def check_ec2_instance_port_ftp_exposed_to_internet(ec2_client):
                             status = "FAIL"  # 상태를 FAIL로 변경
                             severity = "critical" if 'PublicIpAddress' in instance else "high"  # Public IP 여부에 따라 심각도 설정
                             status_extended = (
-                                f"Instance {instance_id} has FTP ports open to the Internet "
-                                f"{'and has a public IP' if 'PublicIpAddress' in instance else 'but has no public IP'}."
+                                f"인스턴스 {instance_id}는 FTP 포트가 인터넷에 개방되어 있습니다 "
+                                f"{'그리고 공인 IP를 가지고 있습니다' if 'PublicIpAddress' in instance else '하지만 공인 IP가 없습니다'}."
                             )
                             break
 
@@ -70,8 +70,9 @@ def check_ec2_instance_port_ftp_exposed_to_internet(ec2_client):
     return results
 
 def save_findings_to_json(findings, filename):
-    with open(filename, 'w') as file:
-        json.dump(findings, file, indent=4)
+    # 결과를 JSON 파일로 저장
+    with open(filename, 'w',encoding='UTF-8-sig') as file:
+        json.dump(findings, file, indent=4, ensure_ascii=False)
 
 if __name__ == '__main__':
     ec2_client = boto3.client('ec2')

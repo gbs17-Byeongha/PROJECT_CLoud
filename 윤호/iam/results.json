@@ -1,0 +1,353 @@
+[
+    {
+        "Object_name": "<root_account>",
+        "arn": "arn:aws:iam::533267160054:user/<root_account>",
+        "region": "",
+        "tag": "",
+        "policy_name": "",
+        "status": "PASS",
+        "status_extended": "User <root_account> does not have access keys."
+    },
+    {
+        "Object_name": "daeun",
+        "arn": "arn:aws:iam::533267160054:user/daeun",
+        "region": "",
+        "tag": "",
+        "policy_name": "",
+        "status": "PASS",
+        "status_extended": "User daeun does not have access keys."
+    },
+    {
+        "Object_name": "helloSDworld",
+        "arn": "arn:aws:iam::533267160054:user/helloSDworld",
+        "region": "",
+        "tag": "",
+        "policy_name": "",
+        "status": "PASS",
+        "status_extended": "User helloSDworld does not have access keys."
+    },
+    {
+        "Object_name": "sanghun",
+        "arn": "arn:aws:iam::533267160054:user/sanghun",
+        "region": "",
+        "tag": "",
+        "policy_name": "",
+        "status": "PASS",
+        "status_extended": "User sanghun does not have access keys."
+    },
+    {
+        "Object_name": "seungdae",
+        "arn": "arn:aws:iam::533267160054:user/seungdae",
+        "region": "",
+        "tag": "",
+        "policy_name": "",
+        "status": "PASS",
+        "status_extended": "User seungdae does not have access keys."
+    },
+    {
+        "Object_name": "yunho",
+        "arn": "arn:aws:iam::533267160054:user/yunho",
+        "region": "",
+        "tag": "",
+        "policy_name": "",
+        "status": "PASS",
+        "status_extended": "User yunho does not have access keys older than 90 days."
+    },
+    {
+        "Object_name": "SecurityAudit",
+        "arn": "arn:aws:iam::aws:policy/SecurityAudit",
+        "region": "aws-global",
+        "tag": "",
+        "policy_name": "SecurityAudit",
+        "status": "PASS",
+        "status_extended": "SecurityAudit policy attached to role ProwlerProSaaSScanRole."
+    },
+    {
+        "Object_name": "AWSSupportServiceRolePolicy",
+        "arn": "arn:aws:iam::aws:policy/aws-service-role/AWSSupportServiceRolePolicy",
+        "region": "aws-global",
+        "tag": "",
+        "policy_name": "",
+        "status": "PASS",
+        "status_extended": "Support policy attached to role AWSServiceRoleForSupport."
+    },
+    {
+        "Object_name": "<root_account>",
+        "arn": "arn:aws:iam::533267160054:root",
+        "region": "",
+        "tag": "",
+        "policy_name": "",
+        "status": "PASS",
+        "status_extended": "User <root_account> does not have access keys."
+    },
+    {
+        "Object_name": "daeun",
+        "arn": "arn:aws:iam::533267160054:user/daeun",
+        "region": "",
+        "tag": "",
+        "policy_name": "",
+        "status": "PASS",
+        "status_extended": "User daeun does not have access keys."
+    },
+    {
+        "Object_name": "helloSDworld",
+        "arn": "arn:aws:iam::533267160054:user/helloSDworld",
+        "region": "",
+        "tag": "",
+        "policy_name": "",
+        "status": "PASS",
+        "status_extended": "User helloSDworld does not have unused access keys for 45 days."
+    },
+    {
+        "Object_name": "sanghun",
+        "arn": "arn:aws:iam::533267160054:user/sanghun",
+        "region": "",
+        "tag": "",
+        "policy_name": "",
+        "status": "PASS",
+        "status_extended": "User sanghun does not have access keys."
+    },
+    {
+        "Object_name": "seungdae",
+        "arn": "arn:aws:iam::533267160054:user/seungdae",
+        "region": "",
+        "tag": "",
+        "policy_name": "",
+        "status": "PASS",
+        "status_extended": "User seungdae does not have access keys."
+    },
+    {
+        "Object_name": "yunho",
+        "arn": "arn:aws:iam::533267160054:user/yunho",
+        "region": "",
+        "tag": "",
+        "policy_name": "",
+        "status": "PASS",
+        "status_extended": "User yunho does not have unused access keys for 45 days."
+    },
+    {
+        "Object_name": "daeun",
+        "arn": "arn:aws:iam::533267160054:user/daeun",
+        "region": "",
+        "tag": "",
+        "policy_name": "",
+        "status": "PASS",
+        "status_extended": "User daeun has console access enabled but has never logged in."
+    },
+    {
+        "Object_name": "helloSDworld",
+        "arn": "arn:aws:iam::533267160054:user/helloSDworld",
+        "region": "",
+        "tag": "",
+        "policy_name": "",
+        "status": "PASS",
+        "status_extended": "User helloSDworld has console access enabled but has never logged in."
+    },
+    {
+        "Object_name": "sanghun",
+        "arn": "arn:aws:iam::533267160054:user/sanghun",
+        "region": "",
+        "tag": "",
+        "policy_name": "",
+        "status": "PASS",
+        "status_extended": "User sanghun has console access enabled but has never logged in."
+    },
+    {
+        "Object_name": "seungdae",
+        "arn": "arn:aws:iam::533267160054:user/seungdae",
+        "region": "",
+        "tag": "",
+        "policy_name": "",
+        "status": "PASS",
+        "status_extended": "User seungdae has console access enabled but has never logged in."
+    },
+    {
+        "Object_name": "yunho",
+        "arn": "arn:aws:iam::533267160054:user/yunho",
+        "region": "",
+        "tag": "",
+        "policy_name": "",
+        "status": "PASS",
+        "status_extended": "User yunho has console access enabled but has never logged in."
+    },
+    {
+        "Object_name": "daeun",
+        "arn": "arn:aws:iam::533267160054:user/daeun",
+        "region": "aws-global",
+        "tag": [],
+        "policy_name": "",
+        "status": "FAIL",
+        "status_extended": "User daeun does not have any type of MFA enabled."
+    },
+    {
+        "Object_name": "helloSDworld",
+        "arn": "arn:aws:iam::533267160054:user/helloSDworld",
+        "region": "aws-global",
+        "tag": [],
+        "policy_name": "",
+        "status": "FAIL",
+        "status_extended": "User helloSDworld does not have any type of MFA enabled."
+    },
+    {
+        "Object_name": "sanghun",
+        "arn": "arn:aws:iam::533267160054:user/sanghun",
+        "region": "aws-global",
+        "tag": [],
+        "policy_name": "",
+        "status": "FAIL",
+        "status_extended": "User sanghun does not have any type of MFA enabled."
+    },
+    {
+        "Object_name": "seungdae",
+        "arn": "arn:aws:iam::533267160054:user/seungdae",
+        "region": "aws-global",
+        "tag": [],
+        "policy_name": "",
+        "status": "FAIL",
+        "status_extended": "User seungdae does not have any type of MFA enabled."
+    },
+    {
+        "Object_name": "yunho",
+        "arn": "arn:aws:iam::533267160054:user/yunho",
+        "region": "aws-global",
+        "tag": [],
+        "policy_name": "",
+        "status": "FAIL",
+        "status_extended": "User yunho does not have any type of MFA enabled."
+    },
+    {
+        "Object_name": "<root_account>",
+        "arn": "arn:aws:iam::533267160054:root",
+        "region": "",
+        "tag": "",
+        "policy_name": "",
+        "status": "PASS",
+        "status_extended": "User <root_account> does not have access keys or uses the access keys configured."
+    },
+    {
+        "Object_name": "daeun",
+        "arn": "arn:aws:iam::533267160054:user/daeun",
+        "region": "",
+        "tag": "",
+        "policy_name": "",
+        "status": "PASS",
+        "status_extended": "User daeun does not have access keys or uses the access keys configured."
+    },
+    {
+        "Object_name": "helloSDworld",
+        "arn": "arn:aws:iam::533267160054:user/helloSDworld",
+        "region": "",
+        "tag": "",
+        "policy_name": "",
+        "status": "PASS",
+        "status_extended": "User helloSDworld does not have access keys or uses the access keys configured."
+    },
+    {
+        "Object_name": "sanghun",
+        "arn": "arn:aws:iam::533267160054:user/sanghun",
+        "region": "",
+        "tag": "",
+        "policy_name": "",
+        "status": "PASS",
+        "status_extended": "User sanghun does not have access keys or uses the access keys configured."
+    },
+    {
+        "Object_name": "seungdae",
+        "arn": "arn:aws:iam::533267160054:user/seungdae",
+        "region": "",
+        "tag": "",
+        "policy_name": "",
+        "status": "PASS",
+        "status_extended": "User seungdae does not have access keys or uses the access keys configured."
+    },
+    {
+        "Object_name": "<root_account>",
+        "arn": "arn:aws:iam::533267160054:root",
+        "region": "",
+        "tag": "",
+        "policy_name": "",
+        "status": "PASS",
+        "status_extended": "User <root_account> does not have 2 active access keys."
+    },
+    {
+        "Object_name": "daeun",
+        "arn": "arn:aws:iam::533267160054:user/daeun",
+        "region": "",
+        "tag": "",
+        "policy_name": "",
+        "status": "PASS",
+        "status_extended": "User daeun does not have 2 active access keys."
+    },
+    {
+        "Object_name": "helloSDworld",
+        "arn": "arn:aws:iam::533267160054:user/helloSDworld",
+        "region": "",
+        "tag": "",
+        "policy_name": "",
+        "status": "PASS",
+        "status_extended": "User helloSDworld does not have 2 active access keys."
+    },
+    {
+        "Object_name": "sanghun",
+        "arn": "arn:aws:iam::533267160054:user/sanghun",
+        "region": "",
+        "tag": "",
+        "policy_name": "",
+        "status": "PASS",
+        "status_extended": "User sanghun does not have 2 active access keys."
+    },
+    {
+        "Object_name": "seungdae",
+        "arn": "arn:aws:iam::533267160054:user/seungdae",
+        "region": "",
+        "tag": "",
+        "policy_name": "",
+        "status": "PASS",
+        "status_extended": "User seungdae does not have 2 active access keys."
+    },
+    {
+        "Object_name": "daeun",
+        "arn": "arn:aws:iam::533267160054:user/daeun",
+        "region": "",
+        "tag": "",
+        "policy_name": "",
+        "status": "PASS",
+        "status_extended": "User daeun doesn't have long lived credentials with access to other services than IAM or STS."
+    },
+    {
+        "Object_name": "helloSDworld",
+        "arn": "arn:aws:iam::533267160054:user/helloSDworld",
+        "region": "",
+        "tag": "",
+        "policy_name": "",
+        "status": "FAIL",
+        "status_extended": "User helloSDworld has long lived credentials with access to other services than IAM or STS."
+    },
+    {
+        "Object_name": "sanghun",
+        "arn": "arn:aws:iam::533267160054:user/sanghun",
+        "region": "",
+        "tag": "",
+        "policy_name": "",
+        "status": "PASS",
+        "status_extended": "User sanghun doesn't have long lived credentials with access to other services than IAM or STS."
+    },
+    {
+        "Object_name": "seungdae",
+        "arn": "arn:aws:iam::533267160054:user/seungdae",
+        "region": "",
+        "tag": "",
+        "policy_name": "",
+        "status": "PASS",
+        "status_extended": "User seungdae doesn't have long lived credentials with access to other services than IAM or STS."
+    },
+    {
+        "Object_name": "yunho",
+        "arn": "arn:aws:iam::533267160054:user/yunho",
+        "region": "",
+        "tag": "",
+        "policy_name": "",
+        "status": "FAIL",
+        "status_extended": "User yunho has long lived credentials with access to other services than IAM or STS."
+    }
+]

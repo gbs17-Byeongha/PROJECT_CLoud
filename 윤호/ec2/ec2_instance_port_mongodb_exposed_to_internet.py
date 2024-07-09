@@ -28,7 +28,7 @@ def check_ec2_instance_port_mongodb_exposed_to_internet(ec2_client):
                 'region': region,
                 'policy_name': '',
                 'status': 'PASS',
-                'status_extended': f"Instance {instance_id} does not have MongoDB ports open to the Internet."
+                'status_extended': f"인스턴스 {instance_id}에 인터넷에 열려 있는 MongoDB 포트가 없습니다."
             }
 
             # 인스턴스에 연결된 보안 그룹 확인
@@ -58,7 +58,7 @@ def check_ec2_instance_port_mongodb_exposed_to_internet(ec2_client):
                                     else:
                                         severity = "MEDIUM"
 
-                                    finding['status_extended'] = f"Instance {instance_id} has MongoDB ports open to the Internet. Severity: {severity}"
+                                    finding['status_extended'] = f"인스턴스 {instance_id}에 MongoDB 포트가 인터넷에 열려 있습니다. 심각도: {severity}"
                                     break  # 발견된 경우 반복 중지
 
                         if finding['status'] == 'FAIL':
@@ -72,8 +72,9 @@ def check_ec2_instance_port_mongodb_exposed_to_internet(ec2_client):
     return findings
 
 def save_findings_to_json(findings, filename):
-    with open(filename, 'w') as file:
-        json.dump(findings, file, indent=4)
+    # 결과를 JSON 파일로 저장
+    with open(filename, 'w',encoding='UTF-8-sig') as file:
+        json.dump(findings, file, indent=4, ensure_ascii=False)
 
 if __name__ == '__main__':
     ec2_client = boto3.client('ec2')

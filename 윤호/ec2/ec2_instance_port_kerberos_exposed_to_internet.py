@@ -64,10 +64,10 @@ def check_ec2_instance_port_kerberos_exposed_to_internet(ec2_client):
                     severity = "MEDIUM"  # 공용 IP가 없으면 중간
                 
                 status = "FAIL"
-                status_extended = f"Instance {instance_id} has Kerberos ports open to the Internet."
+                status_extended = f"인스턴스 {instance_id}에 인터넷에 Kerberos 포트가 열려 있습니다."
             else:
                 status = "PASS"
-                status_extended = f"Instance {instance_id} does not have Kerberos ports open to the Internet."
+                status_extended = f"인스턴스 {instance_id}에 인터넷에 열려 있는 Kerberos 포트가 없습니다."
                 severity = "INFO"
 
             finding = {
@@ -85,8 +85,8 @@ def check_ec2_instance_port_kerberos_exposed_to_internet(ec2_client):
 
 def save_findings_to_json(findings, filename):
     # 결과를 JSON 파일로 저장
-    with open(filename, 'w') as file:
-        json.dump(findings, file, indent=4)
+    with open(filename, 'w',encoding='UTF-8-sig') as file:
+        json.dump(findings, file, indent=4, ensure_ascii=False)
 
 if __name__ == '__main__':
     ec2_client = boto3.client('ec2')
