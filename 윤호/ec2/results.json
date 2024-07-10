@@ -1,0 +1,722 @@
+﻿[
+    {
+        "arn": "arn:aws:ec2:ap-northeast-2:533267160054:instance/i-04a3a65a6488711d2",
+        "tag": [
+            {
+                "Name": "WAFLab-WebServerInstance"
+            },
+            {
+                "aws:cloudformation:stack-id": "arn:aws:cloudformation:ap-northeast-2:533267160054:stack/newpoc/eb5def40-0eeb-11ef-8edc-0266dc2b3cdd"
+            },
+            {
+                "aws:cloudformation:logical-id": "WebServerInstance"
+            },
+            {
+                "aws:cloudformation:stack-name": "newpoc"
+            }
+        ],
+        "region": "ap-northeast-2",
+        "policy_name": "",
+        "status": "PASS",
+        "status_extended": "인스턴스 i-04a3a65a6488711d2에 인터넷에 열려 있는 Cassandra 포트가 없습니다."
+    },
+    {
+        "arn": "arn:aws:ec2:ap-northeast-2:533267160054:instance/i-09997a0658ccdc00c",
+        "tag": [
+            {
+                "aws:cloud9:environment": "adccf6f95a1447a6b2067f31912e275f"
+            },
+            {
+                "aws:cloudformation:logical-id": "Instance"
+            },
+            {
+                "aws:cloudformation:stack-id": "arn:aws:cloudformation:ap-northeast-2:533267160054:stack/aws-cloud9-WooSang-CLSP-adccf6f95a1447a6b2067f31912e275f/910b8540-31f3-11ef-aab7-02a37c8474c1"
+            },
+            {
+                "aws:cloudformation:stack-name": "aws-cloud9-WooSang-CLSP-adccf6f95a1447a6b2067f31912e275f"
+            },
+            {
+                "Name": "aws-cloud9-WooSang-CLSP-adccf6f95a1447a6b2067f31912e275f"
+            },
+            {
+                "aws:cloud9:owner": "533267160054"
+            }
+        ],
+        "region": "ap-northeast-2",
+        "policy_name": "",
+        "status": "PASS",
+        "status_extended": "인스턴스 i-09997a0658ccdc00c에 인터넷에 열려 있는 Cassandra 포트가 없습니다."
+    },
+    {
+        "arn": "arn:aws:ec2:ap-northeast-2:unknown-owner:instance/i-04a3a65a6488711d2",
+        "tag": [
+            {
+                "Name": "WAFLab-WebServerInstance"
+            },
+            {
+                "aws:cloudformation:stack-id": "arn:aws:cloudformation:ap-northeast-2:533267160054:stack/newpoc/eb5def40-0eeb-11ef-8edc-0266dc2b3cdd"
+            },
+            {
+                "aws:cloudformation:logical-id": "WebServerInstance"
+            },
+            {
+                "aws:cloudformation:stack-name": "newpoc"
+            }
+        ],
+        "region": "ap-northeast-2",
+        "policy_name": "",
+        "status": "PASS",
+        "status_extended": "인스턴스 i-04a3a65a6488711d2에 인터넷에 열려 있는 CIFS 포트가 없습니다."
+    },
+    {
+        "arn": "arn:aws:ec2:ap-northeast-2:unknown-owner:instance/i-09997a0658ccdc00c",
+        "tag": [
+            {
+                "aws:cloud9:environment": "adccf6f95a1447a6b2067f31912e275f"
+            },
+            {
+                "aws:cloudformation:logical-id": "Instance"
+            },
+            {
+                "aws:cloudformation:stack-id": "arn:aws:cloudformation:ap-northeast-2:533267160054:stack/aws-cloud9-WooSang-CLSP-adccf6f95a1447a6b2067f31912e275f/910b8540-31f3-11ef-aab7-02a37c8474c1"
+            },
+            {
+                "aws:cloudformation:stack-name": "aws-cloud9-WooSang-CLSP-adccf6f95a1447a6b2067f31912e275f"
+            },
+            {
+                "Name": "aws-cloud9-WooSang-CLSP-adccf6f95a1447a6b2067f31912e275f"
+            },
+            {
+                "aws:cloud9:owner": "533267160054"
+            }
+        ],
+        "region": "ap-northeast-2",
+        "policy_name": "",
+        "status": "PASS",
+        "status_extended": "인스턴스 i-09997a0658ccdc00c에 인터넷에 열려 있는 CIFS 포트가 없습니다."
+    },
+    {
+        "arn": "arn:aws:ec2:ap-northeast-2:533267160054:instance/i-04a3a65a6488711d2",
+        "tag": [
+            {
+                "Name": "WAFLab-WebServerInstance"
+            },
+            {
+                "aws:cloudformation:stack-id": "arn:aws:cloudformation:ap-northeast-2:533267160054:stack/newpoc/eb5def40-0eeb-11ef-8edc-0266dc2b3cdd"
+            },
+            {
+                "aws:cloudformation:logical-id": "WebServerInstance"
+            },
+            {
+                "aws:cloudformation:stack-name": "newpoc"
+            }
+        ],
+        "region": "ap-northeast-2",
+        "policy_name": "",
+        "status": "PASS",
+        "status_extended": "인스턴스 i-04a3a65a6488711d2에 인터넷에 열려 있는 Elasticsearch/Kibana 포트가없습니다."
+    },
+    {
+        "arn": "arn:aws:ec2:ap-northeast-2:533267160054:instance/i-09997a0658ccdc00c",
+        "tag": [
+            {
+                "aws:cloud9:environment": "adccf6f95a1447a6b2067f31912e275f"
+            },
+            {
+                "aws:cloudformation:logical-id": "Instance"
+            },
+            {
+                "aws:cloudformation:stack-id": "arn:aws:cloudformation:ap-northeast-2:533267160054:stack/aws-cloud9-WooSang-CLSP-adccf6f95a1447a6b2067f31912e275f/910b8540-31f3-11ef-aab7-02a37c8474c1"
+            },
+            {
+                "aws:cloudformation:stack-name": "aws-cloud9-WooSang-CLSP-adccf6f95a1447a6b2067f31912e275f"
+            },
+            {
+                "Name": "aws-cloud9-WooSang-CLSP-adccf6f95a1447a6b2067f31912e275f"
+            },
+            {
+                "aws:cloud9:owner": "533267160054"
+            }
+        ],
+        "region": "ap-northeast-2",
+        "policy_name": "",
+        "status": "PASS",
+        "status_extended": "인스턴스 i-09997a0658ccdc00c에 인터넷에 열려 있는 Elasticsearch/Kibana 포트가없습니다."
+    },
+    {
+        "arn": "",
+        "tag": [
+            {
+                "Name": "WAFLab-WebServerInstance"
+            },
+            {
+                "aws:cloudformation:stack-id": "arn:aws:cloudformation:ap-northeast-2:533267160054:stack/newpoc/eb5def40-0eeb-11ef-8edc-0266dc2b3cdd"
+            },
+            {
+                "aws:cloudformation:logical-id": "WebServerInstance"
+            },
+            {
+                "aws:cloudformation:stack-name": "newpoc"
+            }
+        ],
+        "region": "ap-northeast-2",
+        "policy_name": "",
+        "status": "PASS",
+        "status_extended": "인스턴스 i-04a3a65a6488711d2에 인터넷에 열려 있는 FTP 포트가 없습니다."
+    },
+    {
+        "arn": "",
+        "tag": [
+            {
+                "aws:cloud9:environment": "adccf6f95a1447a6b2067f31912e275f"
+            },
+            {
+                "aws:cloudformation:logical-id": "Instance"
+            },
+            {
+                "aws:cloudformation:stack-id": "arn:aws:cloudformation:ap-northeast-2:533267160054:stack/aws-cloud9-WooSang-CLSP-adccf6f95a1447a6b2067f31912e275f/910b8540-31f3-11ef-aab7-02a37c8474c1"
+            },
+            {
+                "aws:cloudformation:stack-name": "aws-cloud9-WooSang-CLSP-adccf6f95a1447a6b2067f31912e275f"
+            },
+            {
+                "Name": "aws-cloud9-WooSang-CLSP-adccf6f95a1447a6b2067f31912e275f"
+            },
+            {
+                "aws:cloud9:owner": "533267160054"
+            }
+        ],
+        "region": "ap-northeast-2",
+        "policy_name": "",
+        "status": "PASS",
+        "status_extended": "인스턴스 i-09997a0658ccdc00c에 인터넷에 열려 있는 FTP 포트가 없습니다."
+    },
+    {
+        "arn": "arn:aws:ec2:ap-northeast-2:533267160054:instance/i-04a3a65a6488711d2",
+        "tag": [
+            {
+                "Name": "WAFLab-WebServerInstance"
+            },
+            {
+                "aws:cloudformation:stack-id": "arn:aws:cloudformation:ap-northeast-2:533267160054:stack/newpoc/eb5def40-0eeb-11ef-8edc-0266dc2b3cdd"
+            },
+            {
+                "aws:cloudformation:logical-id": "WebServerInstance"
+            },
+            {
+                "aws:cloudformation:stack-name": "newpoc"
+            }
+        ],
+        "region": "ap-northeast-2",
+        "policy_name": "",
+        "status": "PASS",
+        "status_extended": "인스턴스 i-04a3a65a6488711d2에 인터넷에 열려 있는 Kafka 포트 9092가 없습니다."
+    },
+    {
+        "arn": "arn:aws:ec2:ap-northeast-2:533267160054:instance/i-09997a0658ccdc00c",
+        "tag": [
+            {
+                "aws:cloud9:environment": "adccf6f95a1447a6b2067f31912e275f"
+            },
+            {
+                "aws:cloudformation:logical-id": "Instance"
+            },
+            {
+                "aws:cloudformation:stack-id": "arn:aws:cloudformation:ap-northeast-2:533267160054:stack/aws-cloud9-WooSang-CLSP-adccf6f95a1447a6b2067f31912e275f/910b8540-31f3-11ef-aab7-02a37c8474c1"
+            },
+            {
+                "aws:cloudformation:stack-name": "aws-cloud9-WooSang-CLSP-adccf6f95a1447a6b2067f31912e275f"
+            },
+            {
+                "Name": "aws-cloud9-WooSang-CLSP-adccf6f95a1447a6b2067f31912e275f"
+            },
+            {
+                "aws:cloud9:owner": "533267160054"
+            }
+        ],
+        "region": "ap-northeast-2",
+        "policy_name": "",
+        "status": "PASS",
+        "status_extended": "인스턴스 i-09997a0658ccdc00c에 인터넷에 열려 있는 Kafka 포트 9092가 없습니다."
+    },
+    {
+        "arn": "arn:aws:ec2:ap-northeast-2:533267160054:instance/i-04a3a65a6488711d2",
+        "tag": [
+            {
+                "Name": "WAFLab-WebServerInstance"
+            },
+            {
+                "aws:cloudformation:stack-id": "arn:aws:cloudformation:ap-northeast-2:533267160054:stack/newpoc/eb5def40-0eeb-11ef-8edc-0266dc2b3cdd"
+            },
+            {
+                "aws:cloudformation:logical-id": "WebServerInstance"
+            },
+            {
+                "aws:cloudformation:stack-name": "newpoc"
+            }
+        ],
+        "region": "ap-northeast-2",
+        "policy_name": "",
+        "status": "PASS",
+        "status_extended": "인스턴스 i-04a3a65a6488711d2에 인터넷에 열려 있는 Kerberos 포트가 없습니다."
+    },
+    {
+        "arn": "arn:aws:ec2:ap-northeast-2:533267160054:instance/i-09997a0658ccdc00c",
+        "tag": [
+            {
+                "aws:cloud9:environment": "adccf6f95a1447a6b2067f31912e275f"
+            },
+            {
+                "aws:cloudformation:logical-id": "Instance"
+            },
+            {
+                "aws:cloudformation:stack-id": "arn:aws:cloudformation:ap-northeast-2:533267160054:stack/aws-cloud9-WooSang-CLSP-adccf6f95a1447a6b2067f31912e275f/910b8540-31f3-11ef-aab7-02a37c8474c1"
+            },
+            {
+                "aws:cloudformation:stack-name": "aws-cloud9-WooSang-CLSP-adccf6f95a1447a6b2067f31912e275f"
+            },
+            {
+                "Name": "aws-cloud9-WooSang-CLSP-adccf6f95a1447a6b2067f31912e275f"
+            },
+            {
+                "aws:cloud9:owner": "533267160054"
+            }
+        ],
+        "region": "ap-northeast-2",
+        "policy_name": "",
+        "status": "PASS",
+        "status_extended": "인스턴스 i-09997a0658ccdc00c에 인터넷에 열려 있는 Kerberos 포트가 없습니다."
+    },
+    {
+        "arn": "arn:aws:ec2:ap-northeast-2:533267160054:instance/i-04a3a65a6488711d2",
+        "tag": [
+            {
+                "Name": "WAFLab-WebServerInstance"
+            },
+            {
+                "aws:cloudformation:stack-id": "arn:aws:cloudformation:ap-northeast-2:533267160054:stack/newpoc/eb5def40-0eeb-11ef-8edc-0266dc2b3cdd"
+            },
+            {
+                "aws:cloudformation:logical-id": "WebServerInstance"
+            },
+            {
+                "aws:cloudformation:stack-name": "newpoc"
+            }
+        ],
+        "region": "ap-northeast-2",
+        "policy_name": "",
+        "status": "PASS",
+        "status_extended": "인스턴스 i-04a3a65a6488711d2에 인터넷에 열려 있는 LDAP 포트가 없습니다."
+    },
+    {
+        "arn": "arn:aws:ec2:ap-northeast-2:533267160054:instance/i-09997a0658ccdc00c",
+        "tag": [
+            {
+                "aws:cloud9:environment": "adccf6f95a1447a6b2067f31912e275f"
+            },
+            {
+                "aws:cloudformation:logical-id": "Instance"
+            },
+            {
+                "aws:cloudformation:stack-id": "arn:aws:cloudformation:ap-northeast-2:533267160054:stack/aws-cloud9-WooSang-CLSP-adccf6f95a1447a6b2067f31912e275f/910b8540-31f3-11ef-aab7-02a37c8474c1"
+            },
+            {
+                "aws:cloudformation:stack-name": "aws-cloud9-WooSang-CLSP-adccf6f95a1447a6b2067f31912e275f"
+            },
+            {
+                "Name": "aws-cloud9-WooSang-CLSP-adccf6f95a1447a6b2067f31912e275f"
+            },
+            {
+                "aws:cloud9:owner": "533267160054"
+            }
+        ],
+        "region": "ap-northeast-2",
+        "policy_name": "",
+        "status": "PASS",
+        "status_extended": "인스턴스 i-09997a0658ccdc00c에 인터넷에 열려 있는 LDAP 포트가 없습니다."
+    },
+    {
+        "arn": "arn:aws:ec2:ap-northeast-2:533267160054:instance/i-04a3a65a6488711d2",
+        "tag": [
+            {
+                "Name": "WAFLab-WebServerInstance"
+            },
+            {
+                "aws:cloudformation:stack-id": "arn:aws:cloudformation:ap-northeast-2:533267160054:stack/newpoc/eb5def40-0eeb-11ef-8edc-0266dc2b3cdd"
+            },
+            {
+                "aws:cloudformation:logical-id": "WebServerInstance"
+            },
+            {
+                "aws:cloudformation:stack-name": "newpoc"
+            }
+        ],
+        "region": "ap-northeast-2",
+        "policy_name": "",
+        "status": "PASS",
+        "status_extended": "인스턴스 i-04a3a65a6488711d2에 인터넷에 열려 있는 Memcache 포트 11211이 없습니다."
+    },
+    {
+        "arn": "arn:aws:ec2:ap-northeast-2:533267160054:instance/i-09997a0658ccdc00c",
+        "tag": [
+            {
+                "aws:cloud9:environment": "adccf6f95a1447a6b2067f31912e275f"
+            },
+            {
+                "aws:cloudformation:logical-id": "Instance"
+            },
+            {
+                "aws:cloudformation:stack-id": "arn:aws:cloudformation:ap-northeast-2:533267160054:stack/aws-cloud9-WooSang-CLSP-adccf6f95a1447a6b2067f31912e275f/910b8540-31f3-11ef-aab7-02a37c8474c1"
+            },
+            {
+                "aws:cloudformation:stack-name": "aws-cloud9-WooSang-CLSP-adccf6f95a1447a6b2067f31912e275f"
+            },
+            {
+                "Name": "aws-cloud9-WooSang-CLSP-adccf6f95a1447a6b2067f31912e275f"
+            },
+            {
+                "aws:cloud9:owner": "533267160054"
+            }
+        ],
+        "region": "ap-northeast-2",
+        "policy_name": "",
+        "status": "PASS",
+        "status_extended": "인스턴스 i-09997a0658ccdc00c에 인터넷에 열려 있는 Memcache 포트 11211이 없습니다."
+    },
+    {
+        "resource_arn": "arn:aws:ec2:ap-northeast-2:unknown-owner:instance/i-04a3a65a6488711d2",
+        "tag": [
+            {
+                "Name": "WAFLab-WebServerInstance"
+            },
+            {
+                "aws:cloudformation:stack-id": "arn:aws:cloudformation:ap-northeast-2:533267160054:stack/newpoc/eb5def40-0eeb-11ef-8edc-0266dc2b3cdd"
+            },
+            {
+                "aws:cloudformation:logical-id": "WebServerInstance"
+            },
+            {
+                "aws:cloudformation:stack-name": "newpoc"
+            }
+        ],
+        "region": "ap-northeast-2",
+        "policy_name": "",
+        "status": "PASS",
+        "status_extended": "인스턴스 i-04a3a65a6488711d2에 인터넷에 열려 있는 MongoDB 포트가 없습니다."
+    },
+    {
+        "resource_arn": "arn:aws:ec2:ap-northeast-2:unknown-owner:instance/i-09997a0658ccdc00c",
+        "tag": [
+            {
+                "aws:cloud9:environment": "adccf6f95a1447a6b2067f31912e275f"
+            },
+            {
+                "aws:cloudformation:logical-id": "Instance"
+            },
+            {
+                "aws:cloudformation:stack-id": "arn:aws:cloudformation:ap-northeast-2:533267160054:stack/aws-cloud9-WooSang-CLSP-adccf6f95a1447a6b2067f31912e275f/910b8540-31f3-11ef-aab7-02a37c8474c1"
+            },
+            {
+                "aws:cloudformation:stack-name": "aws-cloud9-WooSang-CLSP-adccf6f95a1447a6b2067f31912e275f"
+            },
+            {
+                "Name": "aws-cloud9-WooSang-CLSP-adccf6f95a1447a6b2067f31912e275f"
+            },
+            {
+                "aws:cloud9:owner": "533267160054"
+            }
+        ],
+        "region": "ap-northeast-2",
+        "policy_name": "",
+        "status": "PASS",
+        "status_extended": "인스턴스 i-09997a0658ccdc00c에 인터넷에 열려 있는 MongoDB 포트가 없습니다."
+    },
+    {
+        "arn": "arn:aws:ec2:ap-northeast-2:unknown-owner:instance/i-04a3a65a6488711d2",
+        "tag": [
+            {
+                "Name": "WAFLab-WebServerInstance"
+            },
+            {
+                "aws:cloudformation:stack-id": "arn:aws:cloudformation:ap-northeast-2:533267160054:stack/newpoc/eb5def40-0eeb-11ef-8edc-0266dc2b3cdd"
+            },
+            {
+                "aws:cloudformation:logical-id": "WebServerInstance"
+            },
+            {
+                "aws:cloudformation:stack-name": "newpoc"
+            }
+        ],
+        "region": "ap-northeast-2",
+        "policy_name": "",
+        "status": "PASS",
+        "status_extended": "인스턴스 i-04a3a65a6488711d2에 인터넷에 열려 있는 MySQL 포트 3306이 없습니다."
+    },
+    {
+        "arn": "arn:aws:ec2:ap-northeast-2:unknown-owner:instance/i-09997a0658ccdc00c",
+        "tag": [
+            {
+                "aws:cloud9:environment": "adccf6f95a1447a6b2067f31912e275f"
+            },
+            {
+                "aws:cloudformation:logical-id": "Instance"
+            },
+            {
+                "aws:cloudformation:stack-id": "arn:aws:cloudformation:ap-northeast-2:533267160054:stack/aws-cloud9-WooSang-CLSP-adccf6f95a1447a6b2067f31912e275f/910b8540-31f3-11ef-aab7-02a37c8474c1"
+            },
+            {
+                "aws:cloudformation:stack-name": "aws-cloud9-WooSang-CLSP-adccf6f95a1447a6b2067f31912e275f"
+            },
+            {
+                "Name": "aws-cloud9-WooSang-CLSP-adccf6f95a1447a6b2067f31912e275f"
+            },
+            {
+                "aws:cloud9:owner": "533267160054"
+            }
+        ],
+        "region": "ap-northeast-2",
+        "policy_name": "",
+        "status": "PASS",
+        "status_extended": "인스턴스 i-09997a0658ccdc00c에 인터넷에 열려 있는 MySQL 포트 3306이 없습니다."
+    },
+    {
+        "arn": "arn:aws:ec2:ap-northeast-2:533267160054:instance/i-04a3a65a6488711d2",
+        "tag": [
+            {
+                "Name": "WAFLab-WebServerInstance"
+            },
+            {
+                "aws:cloudformation:stack-id": "arn:aws:cloudformation:ap-northeast-2:533267160054:stack/newpoc/eb5def40-0eeb-11ef-8edc-0266dc2b3cdd"
+            },
+            {
+                "aws:cloudformation:logical-id": "WebServerInstance"
+            },
+            {
+                "aws:cloudformation:stack-name": "newpoc"
+            }
+        ],
+        "region": "ap-northeast-2",
+        "policy_name": "",
+        "status": "PASS",
+        "status_extended": "인스턴스 i-04a3a65a6488711d2에 인터넷에 열려 있는 Oracle 포트가 없습니다."
+    },
+    {
+        "arn": "arn:aws:ec2:ap-northeast-2:533267160054:instance/i-09997a0658ccdc00c",
+        "tag": [
+            {
+                "aws:cloud9:environment": "adccf6f95a1447a6b2067f31912e275f"
+            },
+            {
+                "aws:cloudformation:logical-id": "Instance"
+            },
+            {
+                "aws:cloudformation:stack-id": "arn:aws:cloudformation:ap-northeast-2:533267160054:stack/aws-cloud9-WooSang-CLSP-adccf6f95a1447a6b2067f31912e275f/910b8540-31f3-11ef-aab7-02a37c8474c1"
+            },
+            {
+                "aws:cloudformation:stack-name": "aws-cloud9-WooSang-CLSP-adccf6f95a1447a6b2067f31912e275f"
+            },
+            {
+                "Name": "aws-cloud9-WooSang-CLSP-adccf6f95a1447a6b2067f31912e275f"
+            },
+            {
+                "aws:cloud9:owner": "533267160054"
+            }
+        ],
+        "region": "ap-northeast-2",
+        "policy_name": "",
+        "status": "PASS",
+        "status_extended": "인스턴스 i-09997a0658ccdc00c에 인터넷에 열려 있는 Oracle 포트가 없습니다."
+    },
+    {
+        "arn": "arn:aws:ec2:ap-northeast-2:533267160054:instance/i-04a3a65a6488711d2",
+        "tag": [
+            {
+                "Name": "WAFLab-WebServerInstance"
+            },
+            {
+                "aws:cloudformation:stack-id": "arn:aws:cloudformation:ap-northeast-2:533267160054:stack/newpoc/eb5def40-0eeb-11ef-8edc-0266dc2b3cdd"
+            },
+            {
+                "aws:cloudformation:logical-id": "WebServerInstance"
+            },
+            {
+                "aws:cloudformation:stack-name": "newpoc"
+            }
+        ],
+        "region": "ap-northeast-2",
+        "policy_name": "",
+        "status": "PASS",
+        "status_extended": "인스턴스 i-04a3a65a6488711d2에 인터넷에 열려 있는 PostgreSQL 포트 5432가 없습니다."
+    },
+    {
+        "arn": "arn:aws:ec2:ap-northeast-2:533267160054:instance/i-09997a0658ccdc00c",
+        "tag": [
+            {
+                "aws:cloud9:environment": "adccf6f95a1447a6b2067f31912e275f"
+            },
+            {
+                "aws:cloudformation:logical-id": "Instance"
+            },
+            {
+                "aws:cloudformation:stack-id": "arn:aws:cloudformation:ap-northeast-2:533267160054:stack/aws-cloud9-WooSang-CLSP-adccf6f95a1447a6b2067f31912e275f/910b8540-31f3-11ef-aab7-02a37c8474c1"
+            },
+            {
+                "aws:cloudformation:stack-name": "aws-cloud9-WooSang-CLSP-adccf6f95a1447a6b2067f31912e275f"
+            },
+            {
+                "Name": "aws-cloud9-WooSang-CLSP-adccf6f95a1447a6b2067f31912e275f"
+            },
+            {
+                "aws:cloud9:owner": "533267160054"
+            }
+        ],
+        "region": "ap-northeast-2",
+        "policy_name": "",
+        "status": "PASS",
+        "status_extended": "인스턴스 i-09997a0658ccdc00c에 인터넷에 열려 있는 PostgreSQL 포트 5432가 없습니다."
+    },
+    {
+        "arn": "arn:aws:ec2:ap-northeast-2:unknown-owner:instance/i-04a3a65a6488711d2",
+        "tag": [
+            {
+                "Name": "WAFLab-WebServerInstance"
+            },
+            {
+                "aws:cloudformation:stack-id": "arn:aws:cloudformation:ap-northeast-2:533267160054:stack/newpoc/eb5def40-0eeb-11ef-8edc-0266dc2b3cdd"
+            },
+            {
+                "aws:cloudformation:logical-id": "WebServerInstance"
+            },
+            {
+                "aws:cloudformation:stack-name": "newpoc"
+            }
+        ],
+        "region": "ap-northeast-2",
+        "policy_name": "",
+        "status": "PASS",
+        "status_extended": "인스턴스 i-04a3a65a6488711d2에 인터넷에 열려 있는 RDP 포트 3389가 없습니다."
+    },
+    {
+        "arn": "arn:aws:ec2:ap-northeast-2:unknown-owner:instance/i-09997a0658ccdc00c",
+        "tag": [
+            {
+                "aws:cloud9:environment": "adccf6f95a1447a6b2067f31912e275f"
+            },
+            {
+                "aws:cloudformation:logical-id": "Instance"
+            },
+            {
+                "aws:cloudformation:stack-id": "arn:aws:cloudformation:ap-northeast-2:533267160054:stack/aws-cloud9-WooSang-CLSP-adccf6f95a1447a6b2067f31912e275f/910b8540-31f3-11ef-aab7-02a37c8474c1"
+            },
+            {
+                "aws:cloudformation:stack-name": "aws-cloud9-WooSang-CLSP-adccf6f95a1447a6b2067f31912e275f"
+            },
+            {
+                "Name": "aws-cloud9-WooSang-CLSP-adccf6f95a1447a6b2067f31912e275f"
+            },
+            {
+                "aws:cloud9:owner": "533267160054"
+            }
+        ],
+        "region": "ap-northeast-2",
+        "policy_name": "",
+        "status": "PASS",
+        "status_extended": "인스턴스 i-09997a0658ccdc00c에 인터넷에 열려 있는 RDP 포트 3389가 없습니다."
+    },
+    {
+        "arn": "arn:aws:ec2:ap-northeast-2:unknown-owner:instance/i-04a3a65a6488711d2",
+        "tag": [
+            {
+                "Name": "WAFLab-WebServerInstance"
+            },
+            {
+                "aws:cloudformation:stack-id": "arn:aws:cloudformation:ap-northeast-2:533267160054:stack/newpoc/eb5def40-0eeb-11ef-8edc-0266dc2b3cdd"
+            },
+            {
+                "aws:cloudformation:logical-id": "WebServerInstance"
+            },
+            {
+                "aws:cloudformation:stack-name": "newpoc"
+            }
+        ],
+        "region": "ap-northeast-2",
+        "policy_name": "",
+        "status": "PASS",
+        "status_extended": "인스턴스 i-04a3a65a6488711d2에 인터넷에 열려 있는 Redisport 6379가 없습니다."
+    },
+    {
+        "arn": "arn:aws:ec2:ap-northeast-2:unknown-owner:instance/i-09997a0658ccdc00c",
+        "tag": [
+            {
+                "aws:cloud9:environment": "adccf6f95a1447a6b2067f31912e275f"
+            },
+            {
+                "aws:cloudformation:logical-id": "Instance"
+            },
+            {
+                "aws:cloudformation:stack-id": "arn:aws:cloudformation:ap-northeast-2:533267160054:stack/aws-cloud9-WooSang-CLSP-adccf6f95a1447a6b2067f31912e275f/910b8540-31f3-11ef-aab7-02a37c8474c1"
+            },
+            {
+                "aws:cloudformation:stack-name": "aws-cloud9-WooSang-CLSP-adccf6f95a1447a6b2067f31912e275f"
+            },
+            {
+                "Name": "aws-cloud9-WooSang-CLSP-adccf6f95a1447a6b2067f31912e275f"
+            },
+            {
+                "aws:cloud9:owner": "533267160054"
+            }
+        ],
+        "region": "ap-northeast-2",
+        "policy_name": "",
+        "status": "PASS",
+        "status_extended": "인스턴스 i-09997a0658ccdc00c에 인터넷에 열려 있는 Redisport 6379가 없습니다."
+    },
+    {
+        "arn": "arn:aws:ec2:ap-northeast-2:533267160054:instance/i-04a3a65a6488711d2",
+        "tag": [
+            {
+                "Name": "WAFLab-WebServerInstance"
+            },
+            {
+                "aws:cloudformation:stack-id": "arn:aws:cloudformation:ap-northeast-2:533267160054:stack/newpoc/eb5def40-0eeb-11ef-8edc-0266dc2b3cdd"
+            },
+            {
+                "aws:cloudformation:logical-id": "WebServerInstance"
+            },
+            {
+                "aws:cloudformation:stack-name": "newpoc"
+            }
+        ],
+        "region": "ap-northeast-2",
+        "policy_name": "",
+        "status": "PASS",
+        "status_extended": "인스턴스 i-04a3a65a6488711d2에 인터넷에 열려 있는 SQL Server 포트가 없습니다."
+    },
+    {
+        "arn": "arn:aws:ec2:ap-northeast-2:533267160054:instance/i-09997a0658ccdc00c",
+        "tag": [
+            {
+                "aws:cloud9:environment": "adccf6f95a1447a6b2067f31912e275f"
+            },
+            {
+                "aws:cloudformation:logical-id": "Instance"
+            },
+            {
+                "aws:cloudformation:stack-id": "arn:aws:cloudformation:ap-northeast-2:533267160054:stack/aws-cloud9-WooSang-CLSP-adccf6f95a1447a6b2067f31912e275f/910b8540-31f3-11ef-aab7-02a37c8474c1"
+            },
+            {
+                "aws:cloudformation:stack-name": "aws-cloud9-WooSang-CLSP-adccf6f95a1447a6b2067f31912e275f"
+            },
+            {
+                "Name": "aws-cloud9-WooSang-CLSP-adccf6f95a1447a6b2067f31912e275f"
+            },
+            {
+                "aws:cloud9:owner": "533267160054"
+            }
+        ],
+        "region": "ap-northeast-2",
+        "policy_name": "",
+        "status": "PASS",
+        "status_extended": "인스턴스 i-09997a0658ccdc00c에 인터넷에 열려 있는 SQL Server 포트가 없습니다."
+    }
+]

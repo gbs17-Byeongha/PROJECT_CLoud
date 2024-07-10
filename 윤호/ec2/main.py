@@ -21,83 +21,83 @@ def main():
     results = []
 
     
-    iam_client = boto3.client('ec2')
+    ec2_client = boto3.client('ec2')
 
 
 
     # ec2_instance_port_cassandra_exposed_to_internet.py
-    cassandra_exposed_findings = check_ec2_instance_port_cassandra_exposed_to_internet(iam_client)
+    cassandra_exposed_findings = check_ec2_instance_port_cassandra_exposed_to_internet(ec2_client)
     for finding in cassandra_exposed_findings:
         results.append(finding)
 
     # ec2_instance_port_cifs_exposed_to_internet.py
-    cifs_exposed_findings = check_ec2_instance_port_cifs_exposed_to_internet(iam_client)
+    cifs_exposed_findings = check_ec2_instance_port_cifs_exposed_to_internet(ec2_client)
     for finding in cifs_exposed_findings:
         results.append(finding)
 
      # ec2_instance_port_elasticsearch_kibana_exposed_to_internet.py
-    elasticsearch_kibana_exposed_findings = check_ec2_instance_port_elasticsearch_kibana_exposed_to_internet(iam_client)
+    elasticsearch_kibana_exposed_findings = check_ec2_instance_port_elasticsearch_kibana_exposed_to_internet(ec2_client)
     for finding in elasticsearch_kibana_exposed_findings:
         results.append(finding)
 
     # ec2_instance_port_ftp_exposed_to_internet.py
-    ftp_exposed_findings = check_ec2_instance_port_ftp_exposed_to_internet(iam_client)
+    ftp_exposed_findings = check_ec2_instance_port_ftp_exposed_to_internet(ec2_client)
     for finding in ftp_exposed_findings:
         results.append(finding)
 
     # ec2_instance_port_kafka_exposed_to_internet.py
-    kafka_exposed_findings = check_ec2_instance_port_kafka_exposed_to_internet(iam_client)
+    kafka_exposed_findings = check_ec2_instance_port_kafka_exposed_to_internet(ec2_client)
     for finding in kafka_exposed_findings:
         results.append(finding)
 
     # ec2_instance_port_kerberos_exposed_to_internet.py
-    kerberos_exposed_findings = check_ec2_instance_port_kerberos_exposed_to_internet(iam_client)
+    kerberos_exposed_findings = check_ec2_instance_port_kerberos_exposed_to_internet(ec2_client)
     for finding in kerberos_exposed_findings:
         results.append(finding)
 
     # ec2_instance_port_ldap_exposed_to_internet.py
-    ldap_exposed_findings = check_ec2_instance_port_ldap_exposed_to_internet(iam_client)
+    ldap_exposed_findings = check_ec2_instance_port_ldap_exposed_to_internet(ec2_client)
     for finding in ldap_exposed_findings:
         results.append(finding)
 
     # ec2_instance_port_memcached_exposed_to_internet.py
-    memcached_exposed_findings = check_ec2_instance_port_memcached_exposed_to_internet(iam_client)
+    memcached_exposed_findings = check_ec2_instance_port_memcached_exposed_to_internet(ec2_client)
     for finding in memcached_exposed_findings:
         results.append(finding)
 
     # ec2_instance_port_mongodb_exposed_to_internet.py
-    mongodb_exposed_findings = check_ec2_instance_port_mongodb_exposed_to_internet(iam_client)
+    mongodb_exposed_findings = check_ec2_instance_port_mongodb_exposed_to_internet(ec2_client)
     for finding in mongodb_exposed_findings:
         results.append(finding)
 
 
     # ec2_instance_port_mysql_exposed_to_internet.py
-    mysql_exposed_findings = check_ec2_instance_port_mysql_exposed_to_internet(iam_client)
+    mysql_exposed_findings = check_ec2_instance_port_mysql_exposed_to_internet(ec2_client)
     for finding in mysql_exposed_findings:
         results.append(finding)
 
     # ec2_instance_port_oracle_exposed_to_internet.py
-    oracle_exposed_findings = check_ec2_instance_port_oracle_exposed_to_internet(iam_client)
+    oracle_exposed_findings = check_ec2_instance_port_oracle_exposed_to_internet(ec2_client)
     for finding in oracle_exposed_findings:
         results.append(finding)
 
     # ec2_instance_port_postgresql_exposed_to_internet.py
-    postgresql_exposed_findings = check_ec2_instance_port_postgresql_exposed_to_internet(iam_client)
+    postgresql_exposed_findings = check_ec2_instance_port_postgresql_exposed_to_internet(ec2_client)
     for finding in postgresql_exposed_findings:
         results.append(finding)
 
     # ec2_instance_port_rdp_exposed_to_internet.py
-    rdp_exposed_findings = check_ec2_instance_port_rdp_exposed_to_internet(iam_client)
+    rdp_exposed_findings = check_ec2_instance_port_rdp_exposed_to_internet(ec2_client)
     for finding in rdp_exposed_findings:
         results.append(finding)
 
     # ec2_instance_port_redis_exposed_to_internet.py
-    redis_exposed_findings = check_ec2_instance_port_redis_exposed_to_internet(iam_client)
+    redis_exposed_findings = check_ec2_instance_port_redis_exposed_to_internet(ec2_client)
     for finding in redis_exposed_findings:
         results.append(finding)
 
     # ec2_instance_port_sqlserver_exposed_to_internet.py
-    sqlserver_exposed_findings = check_ec2_instance_port_sqlserver_exposed_to_internet(iam_client)
+    sqlserver_exposed_findings = check_ec2_instance_port_sqlserver_exposed_to_internet(ec2_client)
     for finding in sqlserver_exposed_findings:
         results.append(finding)
     

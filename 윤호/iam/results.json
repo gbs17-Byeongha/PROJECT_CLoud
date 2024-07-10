@@ -1,353 +1,314 @@
-[
+﻿[
     {
-        "Object_name": "<root_account>",
         "arn": "arn:aws:iam::533267160054:user/<root_account>",
-        "region": "",
         "tag": "",
+        "region": "",
         "policy_name": "",
         "status": "PASS",
-        "status_extended": "User <root_account> does not have access keys."
+        "status_extended": "<root_account> 사용자에게 액세스 키가 없습니다."
     },
     {
-        "Object_name": "daeun",
         "arn": "arn:aws:iam::533267160054:user/daeun",
-        "region": "",
         "tag": "",
+        "region": "",
         "policy_name": "",
         "status": "PASS",
-        "status_extended": "User daeun does not have access keys."
+        "status_extended": "daeun 사용자에게 액세스 키가 없습니다."
     },
     {
-        "Object_name": "helloSDworld",
         "arn": "arn:aws:iam::533267160054:user/helloSDworld",
-        "region": "",
         "tag": "",
+        "region": "",
         "policy_name": "",
         "status": "PASS",
-        "status_extended": "User helloSDworld does not have access keys."
+        "status_extended": "helloSDworld 사용자에게 액세스 키가 없습니다."
     },
     {
-        "Object_name": "sanghun",
         "arn": "arn:aws:iam::533267160054:user/sanghun",
-        "region": "",
         "tag": "",
+        "region": "",
         "policy_name": "",
         "status": "PASS",
-        "status_extended": "User sanghun does not have access keys."
+        "status_extended": "sanghun 사용자에게 액세스 키가 없습니다."
     },
     {
-        "Object_name": "seungdae",
         "arn": "arn:aws:iam::533267160054:user/seungdae",
-        "region": "",
         "tag": "",
+        "region": "",
         "policy_name": "",
         "status": "PASS",
-        "status_extended": "User seungdae does not have access keys."
+        "status_extended": "seungdae 사용자에게 90일보다 오래된 액세스 키가 없습니다."
     },
     {
-        "Object_name": "yunho",
         "arn": "arn:aws:iam::533267160054:user/yunho",
-        "region": "",
         "tag": "",
+        "region": "",
         "policy_name": "",
         "status": "PASS",
-        "status_extended": "User yunho does not have access keys older than 90 days."
+        "status_extended": "yunho 사용자에게 90일보다 오래된 액세스 키가 없습니다."
     },
     {
-        "Object_name": "SecurityAudit",
         "arn": "arn:aws:iam::aws:policy/SecurityAudit",
-        "region": "aws-global",
         "tag": "",
+        "region": "aws-global",
         "policy_name": "SecurityAudit",
         "status": "PASS",
-        "status_extended": "SecurityAudit policy attached to role ProwlerProSaaSScanRole."
+        "status_extended": "ProwlerProSaaSScanRole 역할에 SecurityAudit 정책이 연결되었습니다."
     },
     {
-        "Object_name": "AWSSupportServiceRolePolicy",
         "arn": "arn:aws:iam::aws:policy/aws-service-role/AWSSupportServiceRolePolicy",
-        "region": "aws-global",
         "tag": "",
+        "region": "aws-global",
         "policy_name": "",
         "status": "PASS",
-        "status_extended": "Support policy attached to role AWSServiceRoleForSupport."
+        "status_extended": "AWSServiceRoleForSupport 역할에 연결된 지원 정책입니다."
     },
     {
-        "Object_name": "<root_account>",
         "arn": "arn:aws:iam::533267160054:root",
-        "region": "",
         "tag": "",
+        "region": "",
         "policy_name": "",
         "status": "PASS",
-        "status_extended": "User <root_account> does not have access keys."
+        "status_extended": "<root_account> 사용자에게 액세스 키가 없습니다."
     },
     {
-        "Object_name": "daeun",
         "arn": "arn:aws:iam::533267160054:user/daeun",
-        "region": "",
         "tag": "",
+        "region": "",
         "policy_name": "",
         "status": "PASS",
-        "status_extended": "User daeun does not have access keys."
+        "status_extended": "daeun 사용자에게 액세스 키가 없습니다."
     },
     {
-        "Object_name": "helloSDworld",
         "arn": "arn:aws:iam::533267160054:user/helloSDworld",
-        "region": "",
         "tag": "",
+        "region": "",
         "policy_name": "",
         "status": "PASS",
-        "status_extended": "User helloSDworld does not have unused access keys for 45 days."
+        "status_extended": "helloSDworld 사용자에게 45일 동안 사용되지 않은 액세스 키가 없습니다."
     },
     {
-        "Object_name": "sanghun",
         "arn": "arn:aws:iam::533267160054:user/sanghun",
-        "region": "",
         "tag": "",
+        "region": "",
         "policy_name": "",
         "status": "PASS",
-        "status_extended": "User sanghun does not have access keys."
+        "status_extended": "sanghun 사용자에게 액세스 키가 없습니다."
     },
     {
-        "Object_name": "seungdae",
         "arn": "arn:aws:iam::533267160054:user/seungdae",
-        "region": "",
         "tag": "",
+        "region": "",
         "policy_name": "",
         "status": "PASS",
-        "status_extended": "User seungdae does not have access keys."
+        "status_extended": "seungdae 사용자에게 45일 동안 사용되지 않은 액세스 키가 없습니다."
     },
     {
-        "Object_name": "yunho",
         "arn": "arn:aws:iam::533267160054:user/yunho",
-        "region": "",
         "tag": "",
+        "region": "",
         "policy_name": "",
         "status": "PASS",
-        "status_extended": "User yunho does not have unused access keys for 45 days."
+        "status_extended": "yunho 사용자에게 45일 동안 사용되지 않은 액세스 키가 없습니다."
     },
     {
-        "Object_name": "daeun",
         "arn": "arn:aws:iam::533267160054:user/daeun",
-        "region": "",
         "tag": "",
+        "region": "",
         "policy_name": "",
         "status": "PASS",
-        "status_extended": "User daeun has console access enabled but has never logged in."
+        "status_extended": "daeun 사용자가 콘솔 액세스를 사용하도록 설정했지만 로그인한 적이 없습니다."
     },
     {
-        "Object_name": "helloSDworld",
         "arn": "arn:aws:iam::533267160054:user/helloSDworld",
-        "region": "",
         "tag": "",
+        "region": "",
         "policy_name": "",
         "status": "PASS",
-        "status_extended": "User helloSDworld has console access enabled but has never logged in."
+        "status_extended": "helloSDworld 사용자가 콘솔 액세스를 사용하도록 설정했지만 로그인한 적이 없습니다."
     },
     {
-        "Object_name": "sanghun",
         "arn": "arn:aws:iam::533267160054:user/sanghun",
-        "region": "",
         "tag": "",
+        "region": "",
         "policy_name": "",
         "status": "PASS",
-        "status_extended": "User sanghun has console access enabled but has never logged in."
+        "status_extended": "sanghun 사용자가 콘솔 액세스를 사용하도록 설정했지만 로그인한 적이 없습니다."
     },
     {
-        "Object_name": "seungdae",
         "arn": "arn:aws:iam::533267160054:user/seungdae",
-        "region": "",
         "tag": "",
+        "region": "",
         "policy_name": "",
         "status": "PASS",
-        "status_extended": "User seungdae has console access enabled but has never logged in."
+        "status_extended": "seungdae 사용자가 콘솔 액세스를 사용하도록 설정했지만 로그인한 적이 없습니다."
     },
     {
-        "Object_name": "yunho",
         "arn": "arn:aws:iam::533267160054:user/yunho",
-        "region": "",
         "tag": "",
+        "region": "",
         "policy_name": "",
         "status": "PASS",
-        "status_extended": "User yunho has console access enabled but has never logged in."
+        "status_extended": "yunho 사용자가 콘솔 액세스를 사용하도록 설정했지만 로그인한 적이 없습니다."
     },
     {
-        "Object_name": "daeun",
         "arn": "arn:aws:iam::533267160054:user/daeun",
-        "region": "aws-global",
         "tag": [],
+        "region": "aws-global",
         "policy_name": "",
         "status": "FAIL",
-        "status_extended": "User daeun does not have any type of MFA enabled."
+        "status_extended": "daeun 사용자에게 사용하도록 설정된 MFA 유형이 없습니다."
     },
     {
-        "Object_name": "helloSDworld",
         "arn": "arn:aws:iam::533267160054:user/helloSDworld",
-        "region": "aws-global",
         "tag": [],
+        "region": "aws-global",
         "policy_name": "",
         "status": "FAIL",
-        "status_extended": "User helloSDworld does not have any type of MFA enabled."
+        "status_extended": "helloSDworld 사용자에게 사용하도록 설정된 MFA 유형이 없습니다."
     },
     {
-        "Object_name": "sanghun",
         "arn": "arn:aws:iam::533267160054:user/sanghun",
-        "region": "aws-global",
         "tag": [],
+        "region": "aws-global",
         "policy_name": "",
         "status": "FAIL",
-        "status_extended": "User sanghun does not have any type of MFA enabled."
+        "status_extended": "sanghun 사용자에게 사용하도록 설정된 MFA 유형이 없습니다."
     },
     {
-        "Object_name": "seungdae",
         "arn": "arn:aws:iam::533267160054:user/seungdae",
-        "region": "aws-global",
         "tag": [],
+        "region": "aws-global",
         "policy_name": "",
         "status": "FAIL",
-        "status_extended": "User seungdae does not have any type of MFA enabled."
+        "status_extended": "seungdae 사용자에게 사용하도록 설정된 MFA 유형이 없습니다."
     },
     {
-        "Object_name": "yunho",
         "arn": "arn:aws:iam::533267160054:user/yunho",
-        "region": "aws-global",
         "tag": [],
+        "region": "aws-global",
         "policy_name": "",
         "status": "FAIL",
-        "status_extended": "User yunho does not have any type of MFA enabled."
+        "status_extended": "yunho 사용자에게 사용하도록 설정된 MFA 유형이 없습니다."
     },
     {
-        "Object_name": "<root_account>",
         "arn": "arn:aws:iam::533267160054:root",
-        "region": "",
         "tag": "",
+        "region": "",
         "policy_name": "",
         "status": "PASS",
-        "status_extended": "User <root_account> does not have access keys or uses the access keys configured."
+        "status_extended": "<root_account> 사용자에게 액세스 키가 없거나 구성된 액세스 키를 사용합니다."
     },
     {
-        "Object_name": "daeun",
         "arn": "arn:aws:iam::533267160054:user/daeun",
-        "region": "",
         "tag": "",
+        "region": "",
         "policy_name": "",
         "status": "PASS",
-        "status_extended": "User daeun does not have access keys or uses the access keys configured."
+        "status_extended": "daeun 사용자에게 액세스 키가 없거나 구성된 액세스 키를 사용합니다."
     },
     {
-        "Object_name": "helloSDworld",
         "arn": "arn:aws:iam::533267160054:user/helloSDworld",
-        "region": "",
         "tag": "",
+        "region": "",
         "policy_name": "",
         "status": "PASS",
-        "status_extended": "User helloSDworld does not have access keys or uses the access keys configured."
+        "status_extended": "helloSDworld 사용자에게 액세스 키가 없거나 구성된 액세스 키를 사용합니다."
     },
     {
-        "Object_name": "sanghun",
         "arn": "arn:aws:iam::533267160054:user/sanghun",
-        "region": "",
         "tag": "",
+        "region": "",
         "policy_name": "",
         "status": "PASS",
-        "status_extended": "User sanghun does not have access keys or uses the access keys configured."
+        "status_extended": "sanghun 사용자에게 액세스 키가 없거나 구성된 액세스 키를 사용합니다."
     },
     {
-        "Object_name": "seungdae",
         "arn": "arn:aws:iam::533267160054:user/seungdae",
-        "region": "",
         "tag": "",
+        "region": "",
         "policy_name": "",
         "status": "PASS",
-        "status_extended": "User seungdae does not have access keys or uses the access keys configured."
+        "status_extended": "seungdae 사용자에게 액세스 키가 없거나 구성된 액세스 키를 사용합니다."
     },
     {
-        "Object_name": "<root_account>",
         "arn": "arn:aws:iam::533267160054:root",
-        "region": "",
         "tag": "",
+        "region": "",
         "policy_name": "",
         "status": "PASS",
-        "status_extended": "User <root_account> does not have 2 active access keys."
+        "status_extended": "<root_account> 사용자에게 2개의 활성 액세스 키가 없습니다."
     },
     {
-        "Object_name": "daeun",
         "arn": "arn:aws:iam::533267160054:user/daeun",
-        "region": "",
         "tag": "",
+        "region": "",
         "policy_name": "",
         "status": "PASS",
-        "status_extended": "User daeun does not have 2 active access keys."
+        "status_extended": "daeun 사용자에게 2개의 활성 액세스 키가 없습니다."
     },
     {
-        "Object_name": "helloSDworld",
         "arn": "arn:aws:iam::533267160054:user/helloSDworld",
-        "region": "",
         "tag": "",
+        "region": "",
         "policy_name": "",
         "status": "PASS",
-        "status_extended": "User helloSDworld does not have 2 active access keys."
+        "status_extended": "helloSDworld 사용자에게 2개의 활성 액세스 키가 없습니다."
     },
     {
-        "Object_name": "sanghun",
         "arn": "arn:aws:iam::533267160054:user/sanghun",
-        "region": "",
         "tag": "",
+        "region": "",
         "policy_name": "",
         "status": "PASS",
-        "status_extended": "User sanghun does not have 2 active access keys."
+        "status_extended": "sanghun 사용자에게 2개의 활성 액세스 키가 없습니다."
     },
     {
-        "Object_name": "seungdae",
         "arn": "arn:aws:iam::533267160054:user/seungdae",
-        "region": "",
         "tag": "",
+        "region": "",
         "policy_name": "",
         "status": "PASS",
-        "status_extended": "User seungdae does not have 2 active access keys."
+        "status_extended": "seungdae 사용자에게 2개의 활성 액세스 키가 없습니다."
     },
     {
-        "Object_name": "daeun",
         "arn": "arn:aws:iam::533267160054:user/daeun",
-        "region": "",
         "tag": "",
+        "region": "",
         "policy_name": "",
         "status": "PASS",
-        "status_extended": "User daeun doesn't have long lived credentials with access to other services than IAM or STS."
+        "status_extended": "daeun 사용자에게 IAM 또는 STS 이외의 다른 서비스에 액세스할 수 있는 오래된 자격 증명이 없습니다."
     },
     {
-        "Object_name": "helloSDworld",
         "arn": "arn:aws:iam::533267160054:user/helloSDworld",
-        "region": "",
         "tag": "",
+        "region": "",
         "policy_name": "",
         "status": "FAIL",
-        "status_extended": "User helloSDworld has long lived credentials with access to other services than IAM or STS."
+        "status_extended": "helloSDworld 사용자는 IAM 또는 STS가 아닌 다른 서비스에 액세스할 수 있는 자격 증명을 오래 사용했습니다."
     },
     {
-        "Object_name": "sanghun",
         "arn": "arn:aws:iam::533267160054:user/sanghun",
-        "region": "",
         "tag": "",
+        "region": "",
         "policy_name": "",
         "status": "PASS",
-        "status_extended": "User sanghun doesn't have long lived credentials with access to other services than IAM or STS."
+        "status_extended": "sanghun 사용자에게 IAM 또는 STS 이외의 다른 서비스에 액세스할 수 있는 오래된 자격 증명이 없습니다."
     },
     {
-        "Object_name": "seungdae",
         "arn": "arn:aws:iam::533267160054:user/seungdae",
-        "region": "",
         "tag": "",
+        "region": "",
         "policy_name": "",
-        "status": "PASS",
-        "status_extended": "User seungdae doesn't have long lived credentials with access to other services than IAM or STS."
+        "status": "FAIL",
+        "status_extended": "seungdae 사용자는 IAM 또는 STS가 아닌 다른 서비스에 액세스할 수 있는 자격 증명을 오래 사용했습니다."
     },
     {
-        "Object_name": "yunho",
         "arn": "arn:aws:iam::533267160054:user/yunho",
-        "region": "",
         "tag": "",
+        "region": "",
         "policy_name": "",
         "status": "FAIL",
-        "status_extended": "User yunho has long lived credentials with access to other services than IAM or STS."
+        "status_extended": "yunho 사용자는 IAM 또는 STS가 아닌 다른 서비스에 액세스할 수 있는 자격 증명을 오래 사용했습니다."
     }
 ]

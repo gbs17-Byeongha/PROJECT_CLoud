@@ -10,13 +10,14 @@ def check_s3_bucket_secure_transport_policy(s3):
     findings = []
 
     # Get list of all buckets
-    buckets = s3.list_buckets().get('Buckets')
+    buckets = s3.list_buckets().get('Buckets', [])
 
     for bucket in buckets:
         bucket_name = bucket['Name']
         try:
             # Get bucket policy
-            bucket_policy = s3.get_bucket_policy(Bucket=bucket_name).get('Policy', {})
+            bucket_policy_str = s3.get_bucket_policy(Bucket=bucket_name).get('Policy', "")
+            bucket_policy = json.loads(bucket_policy_str) if bucket_policy_str else {}
 
             if not bucket_policy:
                 status = 'FAIL'
@@ -73,7 +74,7 @@ def check_s3_bucket_secure_transport_policy(s3):
 
 def save_findings_to_json(findings, filename):
     # 결과를 JSON 파일로 저장
-    with open(filename, 'w',encoding='UTF-8-sig') as file:
+    with open(filename, 'w', encoding='UTF-8-sig') as file:
         json.dump(findings, file, indent=4, ensure_ascii=False)
 
 # 결과 실행 및 출력

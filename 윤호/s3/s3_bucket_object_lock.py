@@ -1,4 +1,3 @@
-# s3_bucket_object_lock.py
 import json
 import boto3
 
@@ -16,15 +15,13 @@ def check_s3_bucket_object_lock(s3):
         bucket_name = bucket['Name']
         try:
             # Get bucket object lock configuration
-            object_lock_config = s3.get_bucket_object_lock_configuration(Bucket=bucket_name)
-            object_lock_enabled = object_lock_config.get('ObjectLockConfiguration', {}).get('ObjectLockEnabled', 'None')
-
-            if object_lock_enabled in ('Enabled', 'Enabled*'):
+            response = s3.get_bucket_logging(Bucket=bucket_name)
+            if response.get('LoggingEnabled'):
                 status = 'PASS'
-                status_extended = f"S3 버킷 {bucket_name}이(가) 개체 잠금을 사용하도록 설정했습니다."
+                status_extended = f"S3 버킷 {bucket_name}이(가) 로깅을 사용하도록 설정했습니다."
             else:
                 status = 'FAIL'
-                status_extended = f"S3 버킷 {bucket_name}이(가) 개체 잠금을 사용하지 않도록 설정했습니다."
+                status_extended = f"S3 버킷 {bucket_name}이(가) 로깅을 사용하지 않도록 설정했습니다."
 
             findings.append({
                 'resource_id': bucket_name,
@@ -57,7 +54,7 @@ def check_s3_bucket_object_lock(s3):
 
 def save_findings_to_json(findings, filename):
     # 결과를 JSON 파일로 저장
-    with open(filename, 'w',encoding='UTF-8-sig') as file:
+    with open(filename, 'w', encoding='UTF-8-sig') as file:
         json.dump(findings, file, indent=4, ensure_ascii=False)
 
 # 결과 실행 및 출력

@@ -13,7 +13,8 @@ def check_s3_bucket_policy_public_write_access(s3):
     for bucket in buckets:
         bucket_name = bucket['Name']
         try:
-            bucket_policy = s3.get_bucket_policy(Bucket=bucket_name)['Policy']
+            bucket_policy_str = s3.get_bucket_policy(Bucket=bucket_name)['Policy']
+            bucket_policy = json.loads(bucket_policy_str)  # 문자열을 딕셔너리로 변환
             statements = bucket_policy.get('Statement', [])
             for statement in statements:
                 if (
@@ -22,8 +23,8 @@ def check_s3_bucket_policy_public_write_access(s3):
                     and '*' in statement['Principal']
                     and 'Action' in statement
                     and (
-                        'PutObject' in statement['Action']
-                        or 'Put*' in statement['Action']
+                        's3:PutObject' in statement['Action']
+                        or 's3:Put*' in statement['Action']
                     )
                 ):
                     finding = {
@@ -60,7 +61,7 @@ def check_s3_bucket_policy_public_write_access(s3):
 
 def save_findings_to_json(findings, filename):
     # 결과를 JSON 파일로 저장
-    with open(filename, 'w',encoding='UTF-8-sig') as file:
+    with open(filename, 'w', encoding='UTF-8-sig') as file:
         json.dump(findings, file, indent=4, ensure_ascii=False)
 
 # 결과 실행 및 출력
