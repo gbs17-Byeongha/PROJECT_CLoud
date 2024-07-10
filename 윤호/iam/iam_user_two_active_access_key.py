@@ -62,5 +62,5 @@ def save_findings_to_json(findings, filename):
 if __name__ == '__main__':
     iam_client = boto3.client('iam')
     result = check_iam_user_two_active_access_keys(iam_client)
-    save_findings_to_json(result, "iam_user_mfa_enabled_console_access.json")
-    print("Results saved to 'iam_user_mfa_enabled_console_access.json'")
+    save_findings_to_json(result, "iam_user_two_active_access_keys.json")
+    print("Results saved to 'iam_user_two_active_access_keys.json'")
